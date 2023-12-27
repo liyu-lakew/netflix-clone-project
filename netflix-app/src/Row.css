@@ -1,0 +1,33 @@
+.row_poster{
+    width: 100%;
+    object-fit: contain;
+    /* bemesetek size weste object fit yaderge */
+    max-height:100px;
+    transition: transform 450ms;
+    margin-right: 10px;
+}
+.row_posters{
+    display: flex;
+    overflow-y: hidden;;/* y bado adergew*/
+    overflow-x: scroll;/* wede gone scroll*/
+    padding: 20px;
+}
+.row_posters::-webkit-scrollbar{
+   display: none; /* scroll bar enditefa*/
+}
+.row_poster:hover{
+    transform: scale(1.08);/*hover senaderg img boge boge endilu*/
+    /* opacity: 1.2; */
+ }
+ .row_posterLarge
+ {
+    max-height: 250px;
+ }
+ .row_posterLarge:hover
+ {
+    transform: scale(1.09);
+ }
+ .row{
+    margin-left: 20px;
+    color:white;
+ }
